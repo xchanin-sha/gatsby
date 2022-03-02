@@ -8,7 +8,12 @@ module.exports = {
     options: {
       "url": "https://legacyapi.fathym.com/graphql"
     }
-  }, "gatsby-plugin-styled-components", "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  }, 
+  "gatsby-plugin-styled-components", 
+  "gatsby-plugin-image", 
+  "gatsby-plugin-sharp", 
+  "gatsby-transformer-sharp",
+  "gatsby-plugin-react-helmet", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
